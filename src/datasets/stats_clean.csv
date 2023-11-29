@@ -1,4 +1,4 @@
-,Country,Num Players,Women,% of Women,FIDE Average,GMs,IMs,FMs,WGMs,WIMs,WFMs,Age Avg
+index,Country,Num Players,Women,% of Women,FIDE Average,GMs,IMs,FMs,WGMs,WIMs,WFMs,Age Avg
 0,Russia,34497,5734,16.62,1666,236,522,1177,50,101,409,34
 1,India,32735,3581,10.94,1275,64,114,83,9,41,42,27
 2,Germany,26577,1751,6.59,1841,94,273,861,18,40,69,49
