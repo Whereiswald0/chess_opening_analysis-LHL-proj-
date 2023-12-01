@@ -1,1 +1,26 @@
 
+RAW datasets - CLEAN datasets
+
+Complete_Players_Database.csv - players_clean.csv
+	Statistics for individual players
+	contains ['Country Rank', 'Name', 'Title', 'Country', 'FIDE', 'Age', ' K-factor'] for each player
+		'FIDE' is the players ranking as determined by the FIDE organization
+		'Country' is their affiliation at the time this data was collected
+
+International_Chess_Stats.csv - stats_clean.csv
+	Statistics of FIDE registered players grouped by country
+	contains ['#', 'Country', 'Num Players', 'Women', '% of Women', 'FIDE Average','GMs', 'IMs', 'FMs', 'WGMs', 'WIMs', 'WFMs', 'Age Avg']
+
+games.csv - games_clean.csv
+	Details of ~20,000 games played on lichess.org, one of the most prominent chess websites.
+	contains ['id', 'rated', 'created_at', 'duration', 'turns', 'victory_status',
+       'winner', 'winner_bin', 'time_ctrl', 'increment_code', 'white_id',
+       'white_rating', 'black_id', 'black_rating', 'rating_dif', 'moves',
+       'opening_eco', 'opening_name', 'opening_simple', 'opening_moves',
+       'opening_10', 'opening_ply', 'simpler_opening']
+		for 'winner_bin', 'time_ctrl', 'opening_simple', 'opening_moves', 'opening_10', and 'simpler_opening'
+			see documentation in jupyter_notebooks/EDA_Cleaning.ipynb
+		'turns' is number of turns taken before the game ended.
+		'increment_code' is the minutes each player started with followed by +n, where 'n' is the increment in seconds added after each move.
+		'opening_eco' is the Encyclopedia of Chess Openings code for each opening
+		'opening_ply' is the number of half-moves in the opening, used to determine the ECO code

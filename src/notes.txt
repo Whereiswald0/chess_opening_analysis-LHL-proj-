@@ -1,1 +1,3 @@
-add python files for frequently used functions
+datasets - contains datasets used in this project
+jupyter_notebooks - contains python code used in this project
+img - contains images of note

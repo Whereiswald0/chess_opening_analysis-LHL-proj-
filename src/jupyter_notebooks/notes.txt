@@ -1,1 +1,5 @@
+EDA_Cleaning.ipynb -
+	contains the python functions and code used to clean and explore the datasets
 
+analysis_and_visuals.ipynb -
+	contains both visualisations of data relationships and statistical modeling
