@@ -1,1 +1,2 @@
-Notes regarding images
+Num. of Black Wins by Rating Difference.png -
+	shows the clustering of black wins with regards to rating difference - black's wins are clustered around areas of small difference in rating - the greater the rating diffence, the few number of black wins found.
